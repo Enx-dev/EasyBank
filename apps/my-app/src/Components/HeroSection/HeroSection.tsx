@@ -1,11 +1,6 @@
 import styles from './HeroSection.module.scss';
 import phoneImg from '../../assets/images/image-mockups.png';
 import SvgDesktop from '../../assets/images/bg-intro-desktop.svg';
-import gsap from 'gsap-trial';
-import ScrollTrigger from 'gsap-trial/ScrollTrigger';
-import DrawSVGPlugin from 'gsap-trial/DrawSVGPlugin';
-import { useEffect } from 'react';
-gsap.registerPlugin(ScrollTrigger, DrawSVGPlugin);
 /* eslint-disable-next-line */
 export interface HeroSectionProps {}
 
