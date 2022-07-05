@@ -2,8 +2,7 @@
 import React, { useEffect } from 'react';
 import gsap from 'gsap-trial';
 import ScrollTrigger from 'gsap-trial/ScrollTrigger';
-import DrawSvgPlugin from 'gsap-trial/DrawSVGPlugin';
-gsap.registerPlugin(ScrollTrigger, DrawSvgPlugin);
+gsap.registerPlugin(ScrollTrigger);
 const Index = () => {
   useEffect(() => {
     const tl = gsap.fromTo(
