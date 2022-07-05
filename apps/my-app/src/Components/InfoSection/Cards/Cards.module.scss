@@ -1,0 +1,9 @@
+.container {
+  @apply flex  flex-col md:max-w-[250px] items-center md:items-start space-y-4 mt-10;
+  h1 {
+    @apply text-xl font-light text-primaryDarkBlue;
+  }
+  p {
+    @apply text-neturalGrayishBlue text-center md:text-start text-sm leading-5;
+  }
+}

@@ -1,0 +1,12 @@
+.container {
+  @apply p-8 bg-neturalLightGrayishBlue md:px-20 md:min-h-[80vh];
+  &__title {
+    @apply text-center md:text-start md:px-0 text-2xl md:text-4xl mb-6 font-light text-primaryDarkBlue px-10;
+  }
+  &__text {
+    @apply text-neturalGrayishBlue max-w-sm text-center md:text-start text-sm;
+  }
+  &__cards {
+    @apply flex flex-wrap justify-between;
+  }
+}

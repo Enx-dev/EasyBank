@@ -1,0 +1,27 @@
+.container {
+  @apply bg-primaryDarkBlue p-10 flex flex-col lg:flex-row lg:justify-evenly items-center space-y-8 lg:px-20;
+  &__top {
+    @apply flex flex-col space-y-4 lg:w-1/4 lg:justify-self-end;
+    span {
+      @apply flex space-x-4;
+      * {
+        @apply cursor-pointer fill-white hover:fill-primaryLimeGreen transition-all duration-100 ease-in-out;
+      }
+    }
+  }
+  &__mid {
+    @apply text-white text-center space-y-3 lg:flex lg:space-y-0 lg:text-start lg:justify-evenly lg:w-full;
+    ul {
+      @apply space-y-3;
+      li {
+        @apply cursor-pointer hover:text-primaryLimeGreen duration-300 ease-in-out transition-colors;
+      }
+    }
+  }
+  &__bottom {
+    @apply flex flex-col items-center lg:items-end space-y-4 text-neturalGrayishBlue lg:w-full;
+    button {
+      @apply hover:from-primaryLimeGreen/70 hover:to-primaryBrightCyan/70 transition-colors duration-500 ease-in-out px-6 text-white font-bold py-3 bg-gradient-to-r cursor-pointer from-primaryLimeGreen to-primaryBrightCyan rounded-3xl;
+    }
+  }
+}

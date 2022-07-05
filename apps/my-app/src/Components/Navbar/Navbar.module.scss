@@ -1,0 +1,18 @@
+.text {
+  @apply text-blue-700;
+}
+.container {
+  @apply flex px-8 py-4 md:py-8 justify-between relative md:px-20  bg-white z-50 items-center;
+  .menu {
+    @apply lg:hidden;
+  }
+  .links {
+    @apply hidden lg:flex gap-8 text-neturalGrayishBlue;
+    * {
+      @apply cursor-pointer;
+    }
+  }
+  .btn {
+    @apply hover:from-primaryLimeGreen/30 hover:to-primaryBrightCyan/50 transition-all duration-700 ease-in-out hidden lg:block px-4 py-2 bg-gradient-to-r from-primaryLimeGreen to-primaryBrightCyan rounded-3xl text-white font-bold text-base;
+  }
+}

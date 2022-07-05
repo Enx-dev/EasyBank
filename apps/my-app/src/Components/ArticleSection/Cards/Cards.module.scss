@@ -1,0 +1,21 @@
+.container {
+  @apply rounded-md shadow-lg max-w-[270px] min-h-[500px] shadow-neturalGrayishBlue/50;
+  img {
+    @apply rounded-t-md min-h-[50%];
+  }
+  div {
+    @apply p-8 space-y-2;
+    h1 {
+      @apply text-base  text-primaryDarkBlue;
+    }
+  }
+}
+.author {
+  @apply text-xs font-light text-neturalGrayishBlue;
+}
+.content {
+  @apply text-xs font-light leading-5 text-neturalGrayishBlue;
+}
+.title {
+  @apply hover:text-primaryLimeGreen cursor-pointer transition-colors duration-200 ease-in-out;
+}

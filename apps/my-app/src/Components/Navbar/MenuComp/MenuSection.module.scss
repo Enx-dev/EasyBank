@@ -1,0 +1,15 @@
+.container {
+  @apply absolute z-20 pt-2 px-4 flex top-0 bottom-0 left-0 right-0;
+  &__menu {
+    @apply mt-20 max-w-md w-[100%] h-60 py-6 rounded-md flex flex-col lg:hidden items-center mx-auto bg-white;
+    box-shadow: 0.7px 5.5px 344.7px rgba(0, 0, 0, 0.37),
+      1.6px 12.3px 395px rgba(0, 0, 0, 0.356),
+      2.8px 21.3px 382.8px rgba(0, 0, 0, 0.332),
+      4.7px 35px 354px rgba(0, 0, 0, 0.242),
+      8.1px 60.9px 340.9px rgba(0, 0, 0, 0.064),
+      37px 278px 407px rgba(0, 0, 0, 0.026);
+    &__links {
+      @apply space-y-4 text-center text-primaryDarkBlue text-base font-normal;
+    }
+  }
+}
